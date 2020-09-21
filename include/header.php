@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <title></title>
-  
-  
-</head>
+
 <body>
 <header id="header">
   <div class="container logo" >
