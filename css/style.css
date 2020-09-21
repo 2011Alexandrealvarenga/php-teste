@@ -129,7 +129,10 @@ header .logo .coluna-busca{
 
 
 
-
+.menu ul li {
+    display: inline-block;
+    padding: 10px;
+}
 .menu-produtos ul {
   margin-bottom: 0; }
   .menu-produtos ul li {
