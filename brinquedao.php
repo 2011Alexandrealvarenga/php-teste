@@ -63,14 +63,26 @@ include 'include/header.php';
     $the_query = new WP_Query ( $my_args );
   ?> 
   <div class="card-group mt-4 ">
-    <?php if($the_query->have_posts()): ?>
-      <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>  
-        <?php get_template_part('template-parts/content'); ?>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 "> 
+      <div class="card">                
+        <a href="">
+          <div class="card-body ">
+              <img src="" alt="">
+          </div>
+          <div class="card-text">
+            
           
-      <?php endwhile; ?>
-      <?php wp_reset_postdata(); ?>
-    <?php else : ?>
-    <?php endif; ?>
+            <h4>
+              titulo
+            </h4>
+
+            <button class="btn btn-primary btn-block">Saiba Mais</button>
+
+                
+          </div>
+        </a>
+      </div>
+    </div> 
    
   </div>
  
