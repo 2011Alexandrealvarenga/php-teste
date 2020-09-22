@@ -71,10 +71,7 @@ include 'include/header.php';
       <?php wp_reset_postdata(); ?>
     <?php else : ?>
     <?php endif; ?>
-  
-
-
-  
+   
   </div>
  
 </div>
