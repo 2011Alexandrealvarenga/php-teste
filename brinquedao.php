@@ -50,18 +50,7 @@ include 'include/header.php';
 
 </div><!--brinquedao -->
 <div class="container conteudo-categoria-brinquedao pb-5">
-  <?php 
-    $paged = (get_query_var('paged')) ? absint(get_query_var('paged')):1;
-    // args
-    $my_args = array(
-      'post_type' => 'post',
-      'category_name' => 'brinquedao',          
-      'paged' => $paged,
-    );  
-   
-    // query
-    $the_query = new WP_Query ( $my_args );
-  ?> 
+  
   <div class="card-group mt-4 ">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 "> 
       <div class="card">                
