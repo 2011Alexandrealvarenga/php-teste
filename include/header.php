@@ -42,15 +42,12 @@
         </div>
       </div>
     </div>
-    <div class="container menu">
+    <div class="container menu d-flex justify-content-between">
       <div class="row">
         <div class="col">
           <ul>
-            <li><a href="">menu</a></li>
-            <li><a href="">menu</a></li>
-            <li><a href="">menu</a></li>
-            <li><a href="">menu</a></li>
-            <li><a href="">menu</a></li>
+            <li><a href="index.php">INICIO</a></li>
+            <li><a href="brinquedao.php">BRINQUEDAO</a></li>
           </ul>
         </div>
       </div>
